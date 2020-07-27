@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset="utf-8">
+	<title>CalculatorJS</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+   </head>
+		<body>
+			<div class="calc">
+				<div class="tabs">
+		<div class = "tab-left active">Лэндинг</div>
+		<div class = "tab-right">Многостраничник</div>
+	</div>
+	<div class="blocks" id="blocks-block">
+		<div class="blocks-title">&#8227 Количество блоков</div>
+		<input type="number" class="counter" id="counter-block">
+	</div>
+	<div class="blocks" id="pages-block">
+		<div class="blocks-title">&#8227 Количество страниц</div>
+		<input type="number" class="counter" id="counter-pages">
+	</div>
+	<div class="blocks">
+		<div class="blocks-title">&#8227 Сколько часов на проект</div>
+		<input type="number" class="counter" id="counter-hours">
+	</div>
+	<div class="blocks">
+		<div class="blocks-title">&#8227 Стоимость вашего часа</div>
+		<input type="number" class="counter" id="counter-rate">
+	</div>
+
+	<div class="addiction"> 
+		<div class="addiction-title">
+		&#8227 Допольнительно:
+	</div>
+		<div class="addiction-block"> 
+			<input class="checkbox" type="checkbox" id="changes-check">
+			Возможность редактировать текст на сайте
+		</div>
+		<div class="addiction-block"> 
+			<input class="checkbox" type="checkbox" id="cms-check">
+			Установка на CMS
+		</div>
+	</div>
+	<div class="total">
+		<span class="name">
+		Общая стоимость
+	</span>
+		<input value = "" type="text" class="total-count" id="total-value">
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
